@@ -10,8 +10,8 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
-import MenuIcon from '@mui/icons-material/Menu';
 import { pageNames } from '../utils/utils';
+import { Link } from 'react-router-dom';
 
 
 const logoStyle = {
@@ -79,8 +79,8 @@ let pagesOptions = pageNames.map((pageName, index) => (
               maxWidth: '100vw',   
             })}
           >
-            <Box
-              sx={{
+            <Link
+              style={{
                 display: 'flex',
                 flexGrow: 2,
               }}
@@ -92,7 +92,7 @@ let pagesOptions = pageNames.map((pageName, index) => (
                 style={logoStyle}
                 alt="logo of sitemark"
               />
-            </Box>
+            </Link>
             <Box
               sx={{
                 display: 'flex',

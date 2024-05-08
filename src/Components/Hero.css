@@ -1,0 +1,17 @@
+.hero-section{
+    position:relative;
+    background-color: rgba(42, 42, 42, 0.5);
+    width:100vw;
+    max-height:100vh;
+    height:100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.scroll-dowb-button{
+    
+}
